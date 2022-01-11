@@ -1,3 +1,5 @@
+# lower bound와 upper bound 함수를 따로 만들어도 되지만
+# 편의상 인자로 기능을 달리하게끔 한다.
 def binary_search(num, bound):
     start, end = 0, n
     while start < end:
